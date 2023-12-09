@@ -1,0 +1,34 @@
+{
+  "name": "tailwind-m3-colors-generator",
+  "version": "0.0.1",
+  "description": "material design 3 theme builder for tailwind",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alimortazavi-pr/tailwind-m3-colors-generator.git"
+  },
+  "keywords": [
+    "color",
+    "tailwind",
+    "material",
+    "material3",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Ali Mortazavi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alimortazavi-pr/tailwind-m3-colors-generator/issues"
+  },
+  "homepage": "https://github.com/alimortazavi-pr/tailwind-m3-colors-generator#readme",
+  "dependencies": {
+    "@material/material-color-utilities": "^0.2.7",
+    "fs-extra": "^11.2.0"
+  }
+}
